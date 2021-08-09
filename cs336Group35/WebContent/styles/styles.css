@@ -1,0 +1,55 @@
+.main{
+	display:flex;
+	width:100vw;
+	height:100vh;
+}
+
+.main_left{
+	display:flex;
+	flex:0.5;
+	
+}
+
+.main_right{
+	display:flex;
+	flex-direction:column;
+	flex:0.5;
+	justify-content:center
+}
+
+.flex_row{
+	display:flex;
+	flex-direction:row
+}
+.flex_column{
+	display:flex;
+	flex-direction:column
+	
+	
+}
+.justify_content{
+	width:80%;
+	justify-content:space-around;
+}
+.marginauto{
+	margin:auto;
+	
+}
+.buttoncenter{
+	
+}
+.section{
+	width:40%;
+}
+.input{
+	width:40%;
+}
+
+.navbar{
+	display:flex;
+	width:30vw;
+	flex:1;
+	justify-content: space-around;
+	margin-left:50px;
+	
+}
